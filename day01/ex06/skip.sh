@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | sed n\;g
+ls -l | awk 'NR == 1 || NR % 3 == 0'
