@@ -25,7 +25,7 @@ int		ft_base_size(char *base)
 		z = i + 1;
 		if (!((base[i] >= 'a' && base[i] <= 'z')
 			|| (base[i] >= 'A' && base[i] <= 'Z')
-			||(base[i] >= '0' && base[i] <= '9')))
+			|| (base[i] >= '0' && base[i] <= '9')))
 			return (0);
 		while (base[z])
 			if (base[i] == base[z++])
