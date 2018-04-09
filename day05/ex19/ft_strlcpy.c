@@ -41,6 +41,6 @@ char	*ft_strncat(char *dest, char *src, int nb)
 
 unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 {
-	ft_strncpy(dst, src, size);
+	ft_strncat(dest, src, size);
 	return (ft_strlen(src));
 }
